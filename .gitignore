@@ -1,0 +1,15 @@
+.ruby-version
+coverage
+.rbx
+Gemfile.lock
+test/dump.rdb
+test/dump-cluster.rdb
+test/stdout
+*.swp
+pkg
+.ruby-version
+.ruby-gemset
+*.sw?
+vendor/bundle
+test/gemfiles/*.lock
+.bundle

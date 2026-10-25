@@ -1,0 +1,22 @@
+# Want to disable a check for a specific case? To disable checks inline:
+# http://docs.rubocop.org/en/latest/configuration/#disabling-cops-within-source-code
+
+AllCops:
+  # RuboCop has a bunch of cops enabled by default. This setting tells RuboCop
+  # to ignore them, so only the ones explicitly set in this file are enabled.
+  DisabledByDefault: true
+  Exclude:
+    - 'log/**/*'
+    - 'vendor/**/*'
+
+# Detect hard tabs, no hard tabs.
+Layout/IndentationStyle:
+  Enabled: true
+
+# Blank lines should not have any spaces.
+Layout/TrailingEmptyLines:
+  Enabled: true
+
+# No trailing whitespace.
+Layout/TrailingWhitespace:
+  Enabled: true
